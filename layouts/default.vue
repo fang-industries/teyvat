@@ -1,9 +1,13 @@
 <!-- ily trobo - reference: github.com/trobonox/trobo.tech/blob/main/layouts/default.vue -->
 
 <template>
-  <div class="min-h-screen w-full bg-gray-900 text-gray-200">
-    <div class="max-w-4xl mx-auto px-8 pt-8">
+  <div
+    class="flex min-h-screen w-full flex-col justify-between bg-gray-900 font-mono text-gray-200"
+  >
+    <Navbar />
+    <div class="mx-auto max-w-4xl px-8 pt-8">
       <Nuxt />
     </div>
+    <Footer />
   </div>
 </template>
