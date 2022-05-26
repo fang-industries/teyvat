@@ -61,39 +61,6 @@
             </div>
           </div>
     </section>
-    <section id="extras">
-        <div>
-          <p class="text-lg font-light text-gray-400">extra servers</p>
-          <div>
-            mudae spam server:
-          </div>
-          <a
-            href="https://discord.gg/enyPgwdjWj"
-            class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200 underline"
-          >
-            https://discord.gg/enyPgwdjWj</a>
-          <div class="border-gray-700 border-2 rounded-xl p-3 mt-4 mb-8">
-            <p class="text-gray-400 text-sm">a wild server invite appeared!</p>
-            <div class="flex justify-between">
-              <div class="flex mt-2">
-                <img src="../assets/mudaeee.webp" class="rounded-full h-16 my-auto mr-4" />
-                <div class="my-auto">
-                  <h2 class="text-xl">mudaeee</h2>
-                  <p><span class="text-blue-300">&bull;</span> 14 members</p>
-                </div>
-              </div>
-              <a
-                href="https://discord.gg/enyPgwdjWj"
-                class="my-auto"
-               >
-                <div class="rounded-xl px-3 py-2 hover:bg-blue-400 duration-150 transition bg-blue-500 transform hover:-translate-y-0.5">
-                  <span>join server</span>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-    </section>
         <section id="thank">
         <div>
           <div>
