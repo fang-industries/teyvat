@@ -33,7 +33,7 @@
             about
           </p>
           <nuxt-link
-            to="/"
+            to="/about"
             v-if="$route.path !== '/about'"
             class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
           >
