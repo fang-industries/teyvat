@@ -25,7 +25,7 @@
             href="https://discord.com/users/728180364962562108"
             class="my-auto font-medium text-gray-500 transition duration-150 hover:text-gray-400 underline"
           >
-            cha ☆#6171</a></p>
+            cha <span class="font-sans">☆</span>#6171</a></p>
           <div class="grid grid-cols-2 gap-8 mb-8">
             <div>
               general rules
@@ -38,12 +38,13 @@
               </ol>
             </div>
             <div>
-              for administrators:
+              for administrators
               <ol class="list-disc text-gray-300">
-                <li>don&apos;t abuse admin rights</li>
+                <li>don&apos;t abuse administrator rights</li>
                 <li>before kicking/banning someone, tell me first</li>
               </ol>
-              <p class="font-bold">i put my trust in you so don't ruin it, i have the right to remove your admin rights</p>
+              <p>&nbsp;</p>
+              <p class="font-bold">i&apos;ve put my trust in you so don't ruin it, i have the right to remove your privileges.</p>
             </div>
           </div>
         </div>
