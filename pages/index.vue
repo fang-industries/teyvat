@@ -20,7 +20,7 @@
             more about the server -></nuxt-link
           >
         </div>
-        <img src="../assets/server-icon.jpeg" class="h-32 rounded-full" />
+        <img src="../assets/server-icon.jpeg" class="h-32 rounded-full" alt="the server icon"/>
       </div>
     </section>
   </main>
