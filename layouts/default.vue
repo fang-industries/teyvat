@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="flex min-h-screen w-full flex-col bg-gray-900 font-mono text-gray-200"
+    class="flex min-h-screen w-full flex-col justify-between bg-gray-900 font-mono text-gray-200"
   >
     <Navbar />
     <div class="mx-56 my-16 text-left">
