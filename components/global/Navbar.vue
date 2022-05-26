@@ -2,7 +2,7 @@
   <nav
     class="sticky top-0 z-50 w-full bg-gray-900 bg-opacity-20 py-4 backdrop-blur-lg backdrop-filter"
   >
-    <div class="mx-auto flex max-w-4xl flex-row justify-between">
+    <div class="flex flex-row justify-between mx-56">
       <nuxt-link
         to="/"
         class="my-auto font-semibold text-blue-300 transition duration-150 hover:text-gray-200 hover:underline"

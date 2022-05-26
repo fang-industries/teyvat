@@ -5,7 +5,7 @@
     class="flex min-h-screen w-full flex-col justify-between bg-gray-900 font-mono text-gray-200"
   >
     <Navbar />
-    <div class="mx-auto my-8 max-w-4xl">
+    <div class="mx-56 my-8 text-left">
       <Nuxt />
     </div>
     <Footer />
