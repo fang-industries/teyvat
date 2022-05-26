@@ -4,11 +4,15 @@
       <div class="flex justify-between">
         <div class="pr-8">
           <span class="mb-1 text-lg font-light text-gray-400">welcome to</span>
-          <h1 class="mb-4 text-6xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] animate-gradient-x">⁀➷ teyvat ˊ˗</h1>
-          <p class="mb-2">
-            we&apos;re a chill discord + minecraft server where you can hang out
-            and talk to all sorts of people.
-          </p>
+          <h1 class="mb-4 text-6xl font-semibold leading-normal bg-clip-text text-transparent bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] animate-gradient-x">⁀➷ teyvat ˊ˗</h1>
+          <div class="mb-2">
+            <p>
+              we&apos;re a chill<span class="text-gray-400 font-sans">*</span> discord + minecraft server where you can hang out
+              and talk to all sorts of people.
+            </p>
+            <span class="text-gray-400 text-xs"><span class="text-gray-400 font-sans">*</span> note: we&apos;re actually very chaotic</span>
+          </div>
+
           <nuxt-link
             to="/about"
             class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
