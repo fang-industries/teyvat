@@ -1,5 +1,5 @@
 <template>
-  <footer class="mx-auto w-full max-w-4xl bg-gray-900 bg-opacity-20 px-8 py-4">
+  <footer class="mx-auto w-full max-w-4xl bg-gray-900 bg-opacity-20 py-4">
     <div class="flex flex-row text-blue-200">
       <div>
         <p class="my-auto cursor-default text-sm font-medium">

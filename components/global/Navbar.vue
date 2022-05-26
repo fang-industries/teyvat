@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="sticky top-0 z-50 w-full bg-gray-900 bg-opacity-20 px-8 py-4 backdrop-blur-lg backdrop-filter"
+    class="sticky top-0 z-50 w-full bg-gray-900 bg-opacity-20 py-4 backdrop-blur-lg backdrop-filter"
   >
-    <div class="flex flex-row mx-auto max-w-4xl justify-between">
+    <div class="mx-auto flex max-w-4xl flex-row justify-between">
       <nuxt-link
         to="/"
         class="my-auto font-semibold text-white text-blue-300 transition duration-150 hover:text-gray-200 hover:underline"
