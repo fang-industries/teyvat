@@ -5,7 +5,7 @@
     <div class="mx-auto flex max-w-4xl flex-row justify-between">
       <nuxt-link
         to="/"
-        class="my-auto font-semibold text-white text-blue-300 transition duration-150 hover:text-gray-200 hover:underline"
+        class="my-auto font-semibold text-blue-300 transition duration-150 hover:text-gray-200 hover:underline"
       >
         <img src="../../assets/logo.svg" class="my-auto h-4" />
       </nuxt-link>
