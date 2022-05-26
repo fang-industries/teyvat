@@ -4,7 +4,7 @@
       <div class="flex justify-between">
         <div class="pr-8">
           <span class="mb-1 text-lg font-light text-gray-400">welcome to</span>
-          <h1 class="mb-4 text-6xl font-semibold leading-normal bg-clip-text text-transparent bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] animate-gradient-x">⁀➷ teyvat ˊ˗</h1>
+          <h1 class="mb-1 text-6xl font-semibold leading-normal bg-clip-text text-transparent bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] animate-gradient-x">⁀➷ teyvat ˊ˗</h1>
           <div class="mb-2">
             <p>
               we&apos;re a chill<span class="text-gray-400 font-sans">*</span> discord + minecraft server where you can hang out
