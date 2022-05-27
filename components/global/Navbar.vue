@@ -2,7 +2,7 @@
   <nav
     class="sticky top-0 z-50 w-full bg-gray-900 bg-opacity-20 py-4 backdrop-blur-lg backdrop-filter"
   >
-    <div class="flex flex-row justify-between mx-56">
+    <div class="mx-56 flex flex-row justify-between">
       <nuxt-link
         to="/"
         class="my-auto font-semibold text-blue-300 transition duration-150 hover:text-gray-200 hover:underline"
@@ -19,7 +19,7 @@
           </p>
           <nuxt-link
             to="/"
-            v-if="$route.path !== '/'"
+            v-else
             class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
           >
             home</nuxt-link
@@ -27,14 +27,14 @@
         </div>
         <div>
           <p
-            v-if="$route.path === '/about'"
+            v-if="$route.path === '/about' || $route.path === '/about/'"
             class="my-auto cursor-default font-medium text-white"
           >
             about
           </p>
           <nuxt-link
             to="/about"
-            v-if="$route.path !== '/about'"
+            v-else
             class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
           >
             about</nuxt-link
@@ -42,13 +42,13 @@
         </div>
         <div>
           <p
-            v-if="$route.path === '/blog'"
+            v-if="$route.path === '/blog' || $route.path === '/blog/'"
             class="my-auto cursor-default font-medium text-white"
           >
             blog
           </p>
           <nuxt-link
-            v-if="$route.path !== '/blog'"
+            v-else
             to="/blog"
             class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
           >
