@@ -6,7 +6,7 @@
   },
   "greet": "hi im amanda",
   "details": {
-    "age": "13",
+    "age": 13,
     "pronouns": "she/they"
   }
 }
