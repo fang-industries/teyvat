@@ -18,9 +18,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/styles/main.css'
-  ],
+  css: ['@/assets/styles/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -34,11 +32,10 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
-    '@nuxtclub/feathericons',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxt/content'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -47,6 +44,24 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
+    },
+  },
+
+  generate: {
+    async routes() {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true }).only(['path']).fetch()
+
+      return files.map((file) => (file.path === '/index' ? '/' : file.path))
+    },
+  },
+
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const stats = require('reading-time')(document.text)
+        document.readingStats = stats
+      }
     },
   },
 }
