@@ -5,8 +5,8 @@
     <p
       class="mb-4 bg-blue-900 bg-opacity-20 pb-2 pt-2 text-center text-sm italic"
     >
-      this website is under construction! some pages may be missing, please be
-      patient!
+      this website is under construction! some pages may be missing, and the
+      whole site might look odd on certain devices. please be patient!
     </p>
     <div class="mx-56 flex flex-row justify-between">
       <nuxt-link
