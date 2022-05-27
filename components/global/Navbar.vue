@@ -1,12 +1,10 @@
 <template>
   <nav
-    class="sticky top-0 z-50 flex w-full flex-col bg-opacity-0 pb-4 backdrop-blur-lg backdrop-filter"
+    class="sticky top-0 z-50 flex w-full flex-col bg-gray-900 bg-opacity-30 pb-4 backdrop-blur-lg backdrop-filter"
   >
-    <p
-      class="mb-4 bg-blue-900 bg-opacity-20 pb-2 pt-2 text-center text-sm italic"
-    >
-      this website is under construction! some pages may be missing, and the
-      whole site might look odd on certain devices. please be patient!
+    <p class="mb-4 bg-blue-900 bg-opacity-20 py-1 text-center text-sm italic">
+      this website is under construction! some pages may be missing, and might
+      look odd on certain devices. please be patient!
     </p>
     <div class="mx-56 flex flex-row justify-between">
       <nuxt-link
