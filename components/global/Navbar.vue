@@ -5,10 +5,10 @@
     <p class="mb-4 bg-blue-300 bg-opacity-20 py-1 text-center text-sm italic">
       this website is finally out of beta; i hope you enjoy it! ☆.。.:*・°☆
     </p>
-    <div class="mx-56 flex flex-row justify-between">
+    <div class="mx-4 flex flex-row justify-center md:mx-56 md:justify-between">
       <nuxt-link
         to="/"
-        class="my-auto font-semibold text-blue-300 transition duration-150 hover:text-gray-200 hover:underline"
+        class="my-auto hidden font-semibold text-blue-300 transition duration-150 hover:text-gray-200 hover:underline md:block"
       >
         <img src="../../assets/logo.svg" class="my-auto h-4" />
       </nuxt-link>

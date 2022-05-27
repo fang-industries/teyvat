@@ -38,7 +38,7 @@
             cha <span class="font-sans">☆</span>#6171</a
           >
         </p>
-        <div class="mb-8 grid grid-cols-2 gap-8">
+        <div class="mb-8 grid gap-8 md:grid-cols-2">
           <div>
             general rules
             <ol class="list-disc text-gray-300">

@@ -3,11 +3,14 @@
     <section id="introduction">
       <div class="mb-8 flex justify-between">
         <div class="pr-8">
-          <span class="mb-1 text-lg font-light text-gray-400">welcome to</span>
+          <span class="text-lg font-light text-gray-400">welcome to</span>
           <h1
-            class="mb-1 animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-6xl font-semibold leading-normal text-transparent"
+            class="mb-1 flex animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-6xl font-semibold leading-normal text-transparent"
           >
-            ⁀➷ teyvat ˊ˗
+            <span class="hidden md:block">⁀➷&nbsp;</span>teyvat<span
+              class="hidden md:block"
+              >&nbsp;ˊ˗</span
+            >
           </h1>
           <div class="mb-2">
             <p>
@@ -30,7 +33,7 @@
         </div>
         <img
           src="../assets/server-icon.jpeg"
-          class="h-32 rounded-full"
+          class="hidden h-32 rounded-full md:block"
           alt="the server icon"
         />
       </div>

@@ -38,7 +38,7 @@
               </div>
             </div>
             <h4 class="text-gray-400">{{ article.description }}</h4>
-            <div v-if="article.tags" class="mt-2 flex space-x-3">
+            <div v-if="article.tags" class="mt-2 hidden space-x-3 md:flex">
               <p
                 class="rounded-full border-2 border-gray-600 px-3 py-1 text-gray-400"
                 v-for="tag in article.tags"

@@ -1,5 +1,7 @@
 <template>
-  <footer class="w-full px-56 bg-gray-900 bg-opacity-20 py-4">
+  <footer
+    class="w-full justify-center bg-gray-900 bg-opacity-20 px-4 py-4 md:justify-start md:px-56"
+  >
     <div class="flex flex-row text-blue-200">
       <div>
         <p class="my-auto cursor-default text-sm font-medium">

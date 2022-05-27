@@ -11,7 +11,7 @@
     </section>
     <section id="libraries">
       <p class="mb-4 text-lg font-light text-gray-400">open-source libraries</p>
-      <div class="mb-8 grid grid-cols-3 gap-16">
+      <div class="mb-8 grid gap-4 md:grid-cols-3 md:gap-16">
         <div>
           <div class="flex">
             <h3 class="text-lg font-semibold">Nuxt.js</h3>
@@ -43,7 +43,7 @@
     </section>
     <section id="artwork">
       <p class="mb-4 text-lg font-light text-gray-400">artwork and icons</p>
-      <div class="grid grid-cols-3 gap-16">
+      <div class="grid gap-4 md:grid-cols-3 md:gap-16">
         <div>
           <div class="flex">
             <h3 class="text-lg font-semibold">Tailwind CSS</h3>

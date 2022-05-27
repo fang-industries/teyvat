@@ -2,11 +2,14 @@
   <main>
     <section id="blogs">
       <div>
-        <h1 class="mb-1 text-6xl font-semibold">introductions</h1>
+        <h1 class="mb-1 hidden text-6xl font-semibold md:block">
+          introductions
+        </h1>
+        <h1 class="mb-1 text-6xl font-semibold md:hidden">intros</h1>
         <p class="mb-4 text-lg font-light text-gray-400">
           here you can see the introductions of other members of the server.
         </p>
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid gap-8 md:grid-cols-3">
           <div class="rounded-lg border-2 border-dashed border-gray-600 p-4">
             <div class="flex min-h-full items-center justify-center">
               <div class="flex flex-col">
@@ -75,7 +78,8 @@
                 <h3 class="text-lg">
                   phobias&nbsp;<span
                     class="text-sm tracking-tight text-gray-500"
-                    >(hover to reveal)</span
+                    >(<span class="hidden md:inline-block">hover&nbsp;</span
+                    ><span class="md:hidden">tap&nbsp;</span>to reveal)</span
                   >
                 </h3>
                 <p
