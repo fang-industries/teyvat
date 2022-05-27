@@ -55,7 +55,7 @@
                 <div v-if="intro.details.age">
                   <h3 class="text-lg">age</h3>
                   <p class="text-gray-400">
-                    {{ intro.details.age.toLowerCase() }}
+                    {{ intro.details.age.toString() }}
                   </p>
                 </div>
                 <div v-if="intro.details.pronouns">
