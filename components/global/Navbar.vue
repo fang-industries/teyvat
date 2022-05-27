@@ -46,6 +46,21 @@
         </div>
         <div>
           <p
+            v-if="$route.path === '/intros' || $route.path === '/intros/'"
+            class="my-auto cursor-default font-medium text-white"
+          >
+            intros
+          </p>
+          <nuxt-link
+            v-else
+            to="/intros"
+            class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+          >
+            intros</nuxt-link
+          >
+        </div>
+        <div>
+          <p
             v-if="$route.path === '/blog' || $route.path === '/blog/'"
             class="my-auto cursor-default font-medium text-white"
           >
