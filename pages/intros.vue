@@ -55,20 +55,20 @@
                 <div v-if="intro.details.age">
                   <h3 class="text-lg">age</h3>
                   <p class="text-gray-400">
-                    {{ intro.details.age }}
+                    {{ intro.details.age.toLowerCase() }}
                   </p>
                 </div>
                 <div v-if="intro.details.pronouns">
                   <h3 class="text-lg">pronouns</h3>
                   <p class="text-gray-400">
-                    {{ intro.details.pronouns }}
+                    {{ intro.details.pronouns.toLowerCase() }}
                   </p>
                 </div>
               </div>
               <div v-if="intro.details.kins">
                 <h3 class="text-lg">kins</h3>
                 <p class="text-gray-400">
-                  {{ intro.details.kins.join(', ') }}
+                  {{ intro.details.kins.join(', ').toLowerCase() }}
                 </p>
               </div>
               <div v-if="intro.details.phobias">
@@ -81,7 +81,7 @@
                 <p
                   class="text-gray-400 blur-sm transition duration-150 hover:blur-0"
                 >
-                  {{ intro.details.phobias.join(', ') }}
+                  {{ intro.details.phobias.join(', ').toLowerCase() }}
                 </p>
               </div>
               <div v-if="intro.details.url">
