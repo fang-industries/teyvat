@@ -63,3 +63,17 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  async asyncData({ $content, params }) {
+    const articles = await $content('articles')
+      .only(['slug', 'title', 'description'])
+      .sortBy('createdAt', 'desc')
+      .fetch()
+    return {
+      articles,
+    }
+  },
+}
+</script>

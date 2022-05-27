@@ -37,6 +37,16 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxt/content'],
 
+  // Content module configuration: https://go.nuxtjs.dev/config-content
+  content: {
+    markdown: {
+      prism: {
+        theme: './assets/styles/prism.css',
+      },
+    },
+    liveEdit: false,
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {
