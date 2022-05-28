@@ -83,18 +83,18 @@
           else because we don&apos;t know who is lurking in the chat and reading
           the messages you are sending. a few members might be weirded out or be
           uncomfortable with this kind if topic so please don&apos;t discuss
-          about it here. i&apos;m not trying to ruin the fun or anything but
+          about it here. we&apos;re not trying to ruin the fun or anything but
           please respect this rule.
         </div>
       </div>
     </section>
     <section id="thank">
-      <div>
-        <div>
-          with all that being said, thank you for reading and enjoy the server!
-          ☆.。.:*・°☆
-        </div>
-      </div>
+      <p
+        class="animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-lg text-transparent"
+      >
+        with all that being said, thank you for reading and enjoy the server!
+        ☆.。.:*・°☆
+      </p>
     </section>
   </main>
 </template>
