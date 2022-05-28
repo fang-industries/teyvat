@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-full justify-center bg-gray-900 bg-opacity-20 px-4 py-4 md:justify-start md:px-56"
+    class="w-full justify-center bg-gray-900 bg-opacity-20 px-4 py-4 md:justify-start md:px-16 lg:px-32 xl:px-56 2xl:px-72"
   >
     <div class="flex flex-row text-blue-200">
       <div>
