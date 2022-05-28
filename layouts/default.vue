@@ -1,7 +1,9 @@
 <!-- ily trobo - reference: github.com/trobonox/trobo.tech/blob/main/layouts/default.vue -->
 
 <template>
-  <div class="flex min-h-screen flex-col justify-between bg-gray-900 font-mono">
+  <div
+    class="flex min-h-screen flex-col justify-between bg-gray-900 font-mono selection:bg-gray-600 selection:text-blue-300"
+  >
     <div class="mb-8 flex w-full flex-col text-gray-200 md:mb-16">
       <Navbar />
       <div
