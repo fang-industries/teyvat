@@ -9,5 +9,8 @@
     "age": 13,
     "pronouns": "she/they",
     "phobias": ["arachnids", "gore"]
+  },
+  "socials": {
+    "ig": "kyiiorin"
   }
 }

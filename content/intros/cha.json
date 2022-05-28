@@ -8,7 +8,11 @@
   "details": {
     "pronouns": "she/her",
     "kins": ["toya", "kohaku"],
-    "phobias": ["gore", "blood"],
-    "url": "awakeningbeat.carrd.co"
+    "phobias": ["gore", "blood"]
+  },
+  "socials": {
+    "url": "awakeningbeat.carrd.co",
+    "ig": "beatteater",
+    "tiktok": "koha_neko"
   }
 }

@@ -6,6 +6,8 @@
   },
   "greet": "hi im rey or kei's sister",
   "details": {
-    "pronouns": "she/they"
+    "pronouns": "she/they",
+    "kins": ["hu tao", "mona"],
+    "phobias": ["small holes", "dirty areas"]
   }
 }

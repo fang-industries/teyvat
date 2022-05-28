@@ -8,7 +8,11 @@
   "details": {
     "age": 13,
     "pronouns": "he/him",
-    "kins": ["LINUS TECH TIPS!!!!!!"],
-    "url": "pnxl.dev"
+    "kins": ["LINUS TECH TIPS!!!!!!"]
+  },
+  "socials": {
+    "url": "pnxl.dev",
+    "ig": "ponxlajaosn",
+    "yt": ["Pix3l_", "UCVkoLwLRVmvDL3hHxKDonKQ"]
   }
 }
