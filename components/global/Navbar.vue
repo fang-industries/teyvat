@@ -8,9 +8,18 @@
     <div class="mx-4 flex flex-row justify-center md:mx-16 lg:mx-32 xl:mx-56 2xl:mx-72 md:justify-between">
       <nuxt-link
         to="/"
-        class="my-auto hidden font-semibold text-blue-300 transition duration-150 hover:text-gray-200 hover:underline md:block"
+        class="my-auto hidden md:flex font-sans animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-transparent transition duration-150 hover:text-gray-200"
       >
-        <img src="../../assets/logo.svg" class="my-auto h-4" />
+        <h1
+          class="my-auto mr-1"
+        >
+          ⁀➷
+        </h1>
+        <h1
+          class="my-auto ml-1"
+        >
+          ˊ˗
+        </h1>
       </nuxt-link>
       <div class="flex space-x-8">
         <div>
