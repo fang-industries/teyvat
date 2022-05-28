@@ -11,7 +11,7 @@
     </section>
     <section id="libraries">
       <p class="mb-4 text-lg font-light text-gray-400">open-source libraries</p>
-      <div class="mb-8 grid gap-4 md:grid-cols-3 md:gap-16">
+      <div class="mb-8 grid gap-4 md:grid-cols-3 md:gap-x-16">
         <div>
           <div class="flex">
             <h3 class="text-lg font-semibold">Nuxt.js</h3>
@@ -32,6 +32,15 @@
         </div>
         <div>
           <div class="flex">
+            <h3 class="text-lg font-semibold">reading-time</h3>
+            &nbsp;
+            <h4 class="my-auto text-sm text-gray-400">v1.5.0</h4>
+          </div>
+          <p>© Nicolas Gryman</p>
+          <p class="text-gray-400">released under MIT license</p>
+        </div>
+        <div>
+          <div class="flex">
             <h3 class="text-lg font-semibold">Tailwind CSS</h3>
             &nbsp;
             <h4 class="my-auto text-sm text-gray-400">v3.0.24</h4>
@@ -43,24 +52,15 @@
     </section>
     <section id="artwork">
       <p class="mb-4 text-lg font-light text-gray-400">artwork and icons</p>
-      <div class="grid gap-4 md:grid-cols-3 md:gap-16">
+      <div class="grid gap-4 md:grid-cols-3 md:gap-x-16">
         <div>
           <div class="flex">
-            <h3 class="text-lg font-semibold">Tailwind CSS</h3>
+            <h3 class="text-lg font-semibold">Font Awesome</h3>
             &nbsp;
-            <h4 class="my-auto text-sm text-gray-400">v3.0.24</h4>
+            <h4 class="my-auto text-sm text-gray-400">v6.1.1</h4>
           </div>
-          <p>© Tailwind Labs, Inc.</p>
-          <p class="text-gray-400">released under MIT license</p>
-        </div>
-        <div>
-          <div class="flex">
-            <h3 class="text-lg font-semibold">Hero Icons</h3>
-            &nbsp;
-            <h4 class="my-auto text-sm text-gray-400">v1.0.5</h4>
-          </div>
-          <p>© 2020 - Refactoring UI</p>
-          <p class="text-gray-400">released under MIT license</p>
+          <p>© Fonticons, Inc.</p>
+          <p class="text-gray-400">released under CC BY 4.0</p>
         </div>
       </div>
     </section>
