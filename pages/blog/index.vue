@@ -1,7 +1,7 @@
 <template>
   <main>
     <section id="blogs">
-      <div>
+      <div class="-mb-4">
         <h1 class="mb-1 text-6xl font-semibold">the teyvat times</h1>
         <p class="mb-4 text-lg font-light text-gray-400">
           every once in a while, i&apos;ll write about server updates to the
@@ -14,7 +14,7 @@
           :key="article.title"
         >
           <div
-            class="rounded-lg border-2 border-gray-600 p-4 transition duration-150 hover:bg-gray-800 hover:text-blue-300"
+            class="mb-4 rounded-lg border-2 border-gray-600 p-4 transition duration-150 hover:bg-gray-800 hover:text-blue-300"
           >
             <div class="flex w-full flex-row justify-between">
               <h3 class="text-xl font-semibold tracking-tight text-gray-200">
