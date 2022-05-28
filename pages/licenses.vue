@@ -30,6 +30,15 @@
           <p>© 2022 - Yuxi (Evan) You</p>
           <p class="text-gray-400">released under MIT license</p>
         </div>
+                <div>
+          <div class="flex">
+            <h3 class="text-lg font-semibold">@nuxt/content</h3>
+            &nbsp;
+            <h4 class="my-auto text-sm text-gray-400">v1.15.1</h4>
+          </div>
+          <p>© Nuxt Project</p>
+          <p class="text-gray-400">released under MIT license</p>
+        </div>
         <div>
           <div class="flex">
             <h3 class="text-lg font-semibold">reading-time</h3>
