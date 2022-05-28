@@ -34,6 +34,8 @@ export default {
     '@nuxt/postcss8',
   ],
 
+  loading: { color: '#93c5fd' },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxt/content'],
 
@@ -56,6 +58,8 @@ export default {
       },
     },
   },
+
+  layoutTransition: 'default',
 
   generate: {
     async routes() {

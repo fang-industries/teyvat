@@ -15,3 +15,33 @@
     <Footer />
   </div>
 </template>
+
+<!-- index.vue -->
+<style>
+/* Transitions using the page hook */
+page-enter-active,
+.page-enter-active {
+  animation: acrossIn 0.1s ease-out both;
+}
+.page-leave-active {
+  animation: acrossOut 0.1s ease-in both;
+}
+@keyframes acrossIn {
+  0% {
+    transform: translate3d(0, 2%, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes acrossOut {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 2%, 0);
+    opacity: 0;
+  }
+}
+</style>
