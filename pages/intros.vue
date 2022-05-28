@@ -45,7 +45,7 @@
             <h2 class="mb-2 text-xl font-semibold tracking-tight text-gray-200">
               {{ intro.greet }}
             </h2>
-            <div>
+            <div class="space-y-2">
               <div class="grid grid-cols-2">
                 <div v-if="intro.details.age">
                   <h3 class="text-lg">age</h3>
@@ -79,19 +79,67 @@
                   {{ intro.details.phobias.join(', ').toLowerCase() }}
                 </p>
               </div>
-              <div v-if="intro.details.url">
-                <a
-                  :href="intro.details.url"
-                  class="my-auto mt-4 flex font-medium text-blue-300 transition duration-150 hover:text-blue-200"
-                >
-                  <font-awesome-icon
-                    icon="fa-solid fa-link"
-                    class="my-auto mr-2 h-5 w-5"
-                  />link to website</a
-                >
+              <div v-if="intro.socials" class="space-y-1">
+                <h3 class="text-lg">links</h3>
+                <div v-if="intro.socials.url">
+                  <a
+                    :href="'https://' + intro.socials.url"
+                    class="my-auto flex font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+                  >
+                    <font-awesome-icon
+                      icon="fa-solid fa-link"
+                      class="my-auto mr-2 h-5 w-5"
+                    />{{ intro.socials.url }}</a
+                  >
+                </div>
+                <div v-if="intro.socials.yt">
+                  <a
+                    :href="
+                      'https://www.youtube.com/channel/' + intro.socials.yt[1]
+                    "
+                    class="my-auto flex font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+                  >
+                    <font-awesome-icon
+                      icon="fa-brands fa-youtube"
+                      class="my-auto mr-2 h-5 w-5"
+                    />{{ intro.socials.yt[0] }}</a
+                  >
+                </div>
+                <div v-if="intro.socials.ig">
+                  <a
+                    :href="'https://www.instagram.com/' + intro.socials.ig"
+                    class="my-auto flex font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+                  >
+                    <font-awesome-icon
+                      icon="fa-brands fa-instagram"
+                      class="my-auto mr-2 h-5 w-5"
+                    />{{ intro.socials.ig }}</a
+                  >
+                </div>
+                <div v-if="intro.socials.twt">
+                  <a
+                    :href="'https://www.twitter.com/' + intro.socials.twt"
+                    class="my-auto flex font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+                  >
+                    <font-awesome-icon
+                      icon="fa-brands fa-twitter"
+                      class="my-auto mr-2 h-5 w-5"
+                    />{{ intro.socials.twt }}</a
+                  >
+                </div>
+                <div v-if="intro.socials.tiktok">
+                  <a
+                    :href="'https://www.tiktok.com/@' + intro.socials.tiktok"
+                    class="my-auto flex font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+                  >
+                    <font-awesome-icon
+                      icon="fa-brands fa-tiktok"
+                      class="my-auto mr-2 h-5 w-5"
+                    />@{{ intro.socials.tiktok }}</a
+                  >
+                </div>
               </div>
             </div>
-            <div v-for="key in intro.details"></div>
           </div>
         </div>
       </div>
