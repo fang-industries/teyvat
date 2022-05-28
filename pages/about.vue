@@ -90,7 +90,7 @@
     </section>
     <section id="thank">
       <p
-        class="animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-lg text-transparent"
+        class="animate-gradient-xy bg-gradient-to-br from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-transparent md:animate-gradient-x md:bg-gradient-to-r"
       >
         with all that being said, thank you for reading and enjoy the server!
         ☆.。.:*・°☆
