@@ -57,13 +57,13 @@ added a new basement; villager trading hall; and a love garden, inspired by stam
 
 we decided to make a new basement because we all figured that it's too much of a hassle to move the previous one and lining up the stairs with the new house. even if we did, i can't lie it kinda looks half-assed, so i simply decided to make a new, much more modern basement.
 
-![the new basement](https://raw.githubusercontent.com/pnxl/teyvat/master/assets/blog/images/we-moved-the-base/2022-05-30_14.41.59)
+![the new basement](https://raw.githubusercontent.com/pnxl/teyvat/master/assets/blog/images/we-moved-the-base/2022-05-30_14.42.28.png)
 
 as for the villager trading hall, i decided that it would be too much of a hassle to carry villagers on boats, it's painfully slow and just a hassle. so i decided to make a new one, and kidnap more villagers.
 
 i really like this new design as it has villagers on different habitats according to their professions, and it doesn't look like a depressing stone brick box.
 
-![new villager trading hall](https://raw.githubusercontent.com/pnxl/teyvat/master/assets/blog/images/we-moved-the-base/2022-05-30_14.42.28.png)
+![new villager trading hall](https://raw.githubusercontent.com/pnxl/teyvat/master/assets/blog/images/we-moved-the-base/2022-05-30_14.41.59.png)
 
 as for the love garden, i just made it because why not? the love garden contains the names of everyone that joined the server, and the server owner.
 
