@@ -25,7 +25,7 @@
     </p>
     <nuxt-content
       :document="article"
-      class="prose prose-invert max-w-none prose-h1:mb-2 prose-h1:text-6xl prose-h2:mb-2 prose-p:mb-2 prose-p:text-lg prose-p:text-gray-200 prose-a:text-blue-100 prose-a:underline prose-a:transition prose-a:duration-150 hover:prose-a:text-blue-200 prose-blockquote:font-normal prose-code:rounded-md prose-code:bg-gray-800 prose-code:p-1 prose-code:font-mono prose-code:font-medium prose-code:text-blue-300 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-sm"
+      class="prose prose-invert max-w-none prose-h1:mb-2 prose-h1:text-6xl prose-h2:mb-2 prose-p:mb-2 prose-p:text-lg prose-p:text-gray-200 prose-a:text-blue-100 prose-a:underline prose-a:transition prose-a:duration-150 hover:prose-a:text-blue-200 prose-blockquote:font-normal prose-code:rounded-md prose-code:bg-gray-800 prose-code:p-1 prose-code:font-mono prose-code:font-medium prose-code:text-blue-300 prose-code:before:content-none prose-code:after:content-none prose-img:rounded-xl"
     />
   </article>
 </template>
