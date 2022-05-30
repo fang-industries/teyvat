@@ -1,10 +1,6 @@
 ---
 title: Test article
 description: 'A test article to showcase the features of this blog.'
-tags:
-  - Front-end
-  - Programming
-  - Beta-testing
 ---
 
 ## Info about this Blog
