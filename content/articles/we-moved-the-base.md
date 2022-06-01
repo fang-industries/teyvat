@@ -74,5 +74,4 @@ as for the love garden, i just made it because why not? the love garden contains
 well, the time has come! let's see what evan thinks of it ... 😉
 
 **he knew since this monday.**
-
-FUCK!
+**FUCK!**
