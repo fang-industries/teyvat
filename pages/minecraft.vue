@@ -46,7 +46,7 @@
       </p>
       <div>
         <p class="mb-2">currently, the server is still invite-only.</p>
-        <p class="mb-2">
+        <p class="mb-8">
           for now, you&apos;ll have to contact either
           <a
             href="https://discord.com/users/728180364962562108"
@@ -66,6 +66,22 @@
           >
           to get white-listed.
         </p>
+      </div>
+    </section>
+    <section id="questions">
+      <p class="mb-4 text-lg font-light text-gray-400">
+        have some more questions?
+      </p>
+      <div class="flex flex-row">
+        <p>
+          you might want to
+          <nuxt-link
+            to="/minecraft/faq"
+            class="font-medium text-blue-300 underline transition duration-150 hover:text-blue-200"
+            >read the faq</nuxt-link
+          >
+        </p>
+        .
       </div>
     </section>
   </main>
