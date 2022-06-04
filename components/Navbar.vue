@@ -1,22 +1,16 @@
 <template>
   <nav
-    class="sticky top-0 z-50 flex w-full flex-col bg-[rgb(7,10,18)] bg-opacity-30 py-4 backdrop-blur-lg backdrop-filter"
+    class="sticky top-0 z-50 flex w-full flex-col backdrop-blur-lg backdrop-filter"
   >
-    <div class="mx-4 flex flex-row justify-center md:mx-16 lg:mx-32 xl:mx-56 2xl:mx-72 md:justify-between">
+    <div
+      class="mx-4 flex flex-row justify-center bg-[rgb(7,10,18)] bg-opacity-30 md:mx-16 md:justify-between lg:mx-32 xl:mx-56 2xl:mx-72 py-4"
+    >
       <nuxt-link
         to="/"
-        class="my-auto hidden md:flex font-sans animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text text-transparent transition duration-150 hover:text-gray-200"
+        class="my-auto hidden animate-gradient-x bg-gradient-to-r from-[rgb(152,198,255)] to-[rgb(219,152,255)] bg-clip-text font-sans text-transparent transition duration-150 hover:text-gray-200 md:flex"
       >
-        <h1
-          class="my-auto mr-1"
-        >
-          ⁀➷
-        </h1>
-        <h1
-          class="my-auto ml-1"
-        >
-          ˊ˗
-        </h1>
+        <h1 class="my-auto mr-1">⁀➷</h1>
+        <h1 class="my-auto ml-1">ˊ˗</h1>
       </nuxt-link>
       <div class="flex space-x-8">
         <div>
