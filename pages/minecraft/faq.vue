@@ -2,21 +2,16 @@
   <main>
     <section id="introduction">
       <div>
-        <h1 class="mb-1 text-6xl font-semibold">minecraft server</h1>
-        <p class="mb-4 text-lg font-light text-gray-400">
-          find out more information about our invite-only minecraft server here!
-        </p>
-        <p class="mb-4">
-          the teyvat minecraft server features a unique experience, featuring a
-          custom world generation with Terralith, Incendium, and Nullscape, and
-          contains 28 addtional data-packs, 32 mods, aswell as a custom resource
-          pack.
-        </p>
-        <p class="mb-8">
-          on top of that, the server also runs a mod loader with very low
-          overhead, the bleeding-edge Quilt Project. the mod loader is based on
-          the ever popular Fabric Loader, meaning compatibility is available for
-          existing Fabric mods.
+        <h1 class="mb-1 text-6xl font-semibold">
+          <h1 class="mb-1 text-6xl font-semibold">
+            <span class="lg:hidden">faq</span
+            ><span class="hidden lg:inline-block"
+              >frequently asked questions</span
+            >
+          </h1>
+        </h1>
+        <p class="mb-8 text-lg font-light text-gray-400">
+          have a question? make sure to check this page out!
         </p>
       </div>
     </section>
