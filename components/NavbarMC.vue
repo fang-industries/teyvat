@@ -11,14 +11,16 @@
             v-if="$route.path === '/minecraft' || $route.path === '/minecraft/'"
             class="my-auto cursor-default font-medium text-white"
           >
-            introduction
+            <span class="hidden md:inline-block">introduction</span
+            ><span class="md:hidden">intro</span>
           </p>
           <nuxt-link
             v-else
             to="/minecraft"
             class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
           >
-            introduction</nuxt-link
+            <span class="hidden md:inline-block">introduction</span
+            ><span class="md:hidden">intro</span></nuxt-link
           >
         </div>
       </div>
