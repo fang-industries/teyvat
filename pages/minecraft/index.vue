@@ -2,7 +2,10 @@
   <main>
     <section id="introduction">
       <div>
-        <h1 class="mb-1 text-6xl font-semibold">minecraft server</h1>
+        <h1 class="mb-1 text-6xl font-semibold">
+          <span class="md:hidden">mc</span
+          ><span class="hidden md:inline-block">minecraft</span> server
+        </h1>
         <p class="mb-4 text-lg font-light text-gray-400">
           find out more information about our invite-only minecraft server here!
         </p>
