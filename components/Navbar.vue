@@ -58,7 +58,7 @@
             intros</nuxt-link
           >
         </div>
-        <div class="hidden md:block">
+        <div>
           <p
             v-if="$route.path === '/minecraft' || $route.path === '/minecraft/'"
             class="my-auto cursor-default font-medium text-white"
