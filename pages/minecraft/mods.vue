@@ -25,16 +25,29 @@
           />
         </div>
       </div>
+      <div class="space-y-4">
+        <p class="text-lg font-light text-gray-400">game mods</p>
+        <div class="grid gap-4">
+          <ModCard
+            v-for="mod in mods"
+            :name="mod.name"
+            :desc="mod.desc"
+            :url="mod.url"
+          />
+        </div>
+      </div>
     </section>
   </main>
 </template>
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
+  async asyncData({ $content }) {
     const datapacks = await $content('datapacks').sortBy('name').fetch()
+    const mods = await $content('mods').sortBy('name').fetch()
     return {
       datapacks,
+      mods,
     }
   },
 }
