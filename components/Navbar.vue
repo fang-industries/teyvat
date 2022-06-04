@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-50 flex w-full flex-col bg-[rgb(7,10,18)] bg-opacity-30 py-4 backdrop-blur-lg backdrop-filter"
+    class="flex w-full flex-col bg-[rgb(7,10,18)] bg-opacity-30 py-4 backdrop-blur-lg backdrop-filter"
   >
     <div
       class="mx-4 flex flex-row justify-center md:mx-16 md:justify-between lg:mx-32 xl:mx-56 2xl:mx-72"
