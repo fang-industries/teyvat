@@ -7,7 +7,7 @@
     <div class="mb-8 flex w-full flex-col text-gray-200 md:mb-16">
       <div class="sticky top-0 z-50">
         <Navbar />
-        <NavbarMC v-if="$route.path === '/minecraft' || $route.path === '/minecraft/'" />
+        <NavbarMC v-if="$route.path.startsWith('/minecraft')" />
       </div>
       <div
         class="mx-4 mt-8 text-left md:mx-16 md:mt-16 lg:mx-32 xl:mx-56 2xl:mx-72"
