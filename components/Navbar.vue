@@ -60,7 +60,7 @@
         </div>
         <div class="hidden md:block">
           <p
-            v-if="$route.path === '/minecraft' || $route.path === '/minecraft/'"
+            v-if="$route.path.startsWith('/minecraft')"
             class="my-auto cursor-default font-medium text-white"
           >
             minecraft
