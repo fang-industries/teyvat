@@ -2,9 +2,6 @@
   <nav
     class="sticky top-0 z-50 flex w-full flex-col bg-gray-900 bg-opacity-30 pb-4 backdrop-blur-lg backdrop-filter"
   >
-    <p class="mb-4 bg-blue-300 bg-opacity-20 py-1 text-center text-sm italic">
-      this website is finally out of beta; i hope you enjoy it! ☆.。.:*・°☆
-    </p>
     <div class="mx-4 flex flex-row justify-center md:mx-16 lg:mx-32 xl:mx-56 2xl:mx-72 md:justify-between">
       <nuxt-link
         to="/"
