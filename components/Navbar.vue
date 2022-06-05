@@ -3,7 +3,7 @@
     class="flex w-full flex-col bg-black bg-opacity-30 py-4 backdrop-blur-lg backdrop-filter"
   >
     <div
-      class="mx-4 flex-col space-y-2 md:mx-16 md:flex-row md:justify-between md:space-y-0 lg:mx-32 xl:mx-56 2xl:mx-72"
+      class="mx-4 flex flex-col space-y-2 md:mx-16 md:flex-row md:justify-between md:space-y-0 lg:mx-32 xl:mx-56 2xl:mx-72"
     >
       <nuxt-link
         to="/"
