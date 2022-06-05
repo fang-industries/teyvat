@@ -11,9 +11,8 @@
         </p>
         <p class="mb-4">
           the teyvat minecraft server features a unique experience, featuring a
-          custom world generation with Terralith, Incendium, and Nullscape, and
-          contains 28 addtional data-packs, 32 mods, aswell as a custom resource
-          pack.
+          custom world generation with Terralith, and contains 50 data-packs and
+          mods, aswell as a custom resource pack.
         </p>
         <p class="mb-8">
           on top of that, the server also runs a mod loader with very low
@@ -82,9 +81,8 @@
             to="/minecraft/faq"
             class="font-medium text-blue-300 underline transition duration-150 hover:text-blue-200"
             >read the faq</nuxt-link
-          >
+          >.
         </p>
-        .
       </div>
     </section>
   </main>
