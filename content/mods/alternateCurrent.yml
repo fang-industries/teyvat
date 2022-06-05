@@ -1,0 +1,3 @@
+name: Alternate Current
+desc: Reduces the lag caused by redstone dust, by optimising the power calculations and reducing the number of shape and block updates emitted. As a side effect of these changes the block update order of redstone dust networks is predictable and intuitive rather than locational and chaotic.
+url: https://modrinth.com/mod/alternate-current

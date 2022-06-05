@@ -1,0 +1,3 @@
+name: Feature NBT Deadlock Be Gone
+desc: When placing NBT builds into the world during worldgen, it can deadlock the game if the build is replacing a BlockEntity of any kind. Spawners, chests, lecterns, beds, signs, etc. Your game locks up and freezes. Ticks are no longer being run.
+url: https://modrinth.com/mod/feature-nbt-deadlock-be-gone
