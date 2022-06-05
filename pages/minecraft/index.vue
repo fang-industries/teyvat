@@ -7,7 +7,7 @@
           ><span class="hidden md:inline-block">minecraft</span> server
         </h1>
         <p class="mb-4 text-lg font-light text-gray-400">
-          find out more information about our invite-only minecraft server here!
+          find out more information about the minecraft server here!
         </p>
         <p class="mb-4">
           the teyvat minecraft server features a unique experience, featuring a
