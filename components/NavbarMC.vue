@@ -63,6 +63,26 @@
             ><span class="md:hidden">mods</span></nuxt-link
           >
         </div>
+        <div>
+          <p
+            v-if="
+              $route.path === '/minecraft/setup' ||
+              $route.path === '/minecraft/setup/'
+            "
+            class="my-auto cursor-default font-medium text-white"
+          >
+            <span class="hidden md:inline-block">setup</span
+            ><span class="md:hidden">setup</span>
+          </p>
+          <nuxt-link
+            v-else
+            to="/minecraft/setup"
+            class="my-auto font-medium text-blue-300 transition duration-150 hover:text-blue-200"
+          >
+            <span class="hidden md:inline-block">setup</span
+            ><span class="md:hidden">setup</span></nuxt-link
+          >
+        </div>
       </div>
     </div>
   </nav>
