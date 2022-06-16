@@ -3,7 +3,7 @@
     <section id="licenses">
       <div>
         <h1 class="mb-1 text-6xl font-semibold">license notice</h1>
-        <p class="mb-8 text-lg font-light text-gray-400">
+        <p class="mb-16 text-lg font-light text-gray-400">
           this website uses open-source licenses, and would like to give
           attribution.
         </p>
@@ -11,7 +11,7 @@
     </section>
     <section id="libraries">
       <p class="mb-4 text-lg font-light text-gray-400">open-source libraries</p>
-      <div class="mb-8 grid gap-4 md:grid-cols-3 md:gap-x-16">
+      <div class="mb-16 grid gap-4 md:grid-cols-3 md:gap-x-16">
         <div>
           <div class="flex">
             <h3 class="text-lg font-semibold">Nuxt.js</h3>
@@ -30,7 +30,7 @@
           <p>© 2022 - Yuxi (Evan) You</p>
           <p class="text-gray-400">released under MIT license</p>
         </div>
-                <div>
+        <div>
           <div class="flex">
             <h3 class="text-lg font-semibold">@nuxt/content</h3>
             &nbsp;

@@ -20,7 +20,7 @@
         >{{ createdAt }} &bull; {{ article.readingStats.text }}</span
       >
     </div>
-    <p class="mb-8 font-light text-gray-400">
+    <p class="mb-16 font-light text-gray-400">
       {{ article.description }}
     </p>
     <nuxt-content

@@ -6,7 +6,7 @@
         <p class="mb-4 text-lg font-light text-gray-400">
           here are some bits of information you should know about.
         </p>
-        <p class="mb-8">
+        <p class="mb-16">
           first thing to do after joining, you should submit your Genshin UID
           (if you play)
           <a
@@ -38,7 +38,7 @@
             cha <span class="font-sans">☆</span>#6171</a
           >
         </p>
-        <div class="mb-8 grid gap-8 md:grid-cols-2">
+        <div class="mb-16 grid gap-8 md:grid-cols-2">
           <div>
             general rules
             <ol class="list-disc text-gray-300">
@@ -78,7 +78,7 @@
             magnificentash#4760</a
           >
         </p>
-        <div class="mb-8">
+        <div class="mb-16">
           in case you want to talk about it, you may talk in DMs or somewhere
           else because we don&apos;t know who is lurking in the chat and reading
           the messages you are sending. a few members might be weirded out or be
