@@ -63,7 +63,7 @@
             ><span class="md:hidden">mods</span></nuxt-link
           >
         </div>
-        <!-- <div>
+        <div>
           <p
             v-if="
               $route.path === '/minecraft/setup' ||
@@ -82,7 +82,7 @@
             <span class="hidden md:inline-block">setup</span
             ><span class="md:hidden">setup</span></nuxt-link
           >
-        </div> -->
+        </div>
       </div>
     </div>
   </nav>
