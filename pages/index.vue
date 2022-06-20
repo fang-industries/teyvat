@@ -1,7 +1,7 @@
 <template>
   <main>
     <section id="introduction">
-      <div class="mb-8 flex justify-between">
+      <div class="mb-16 flex justify-between">
         <div class="pr-8">
           <span class="text-lg font-light text-gray-400">welcome to</span>
           <h1
@@ -38,7 +38,7 @@
         />
       </div>
     </section>
-    <div class="my-8 border-b border-gray-500" />
+    <div class="mb-16 border-b border-gray-500" />
     <section id="contact">
       <div>
         <p>want an invite to this server?</p>
