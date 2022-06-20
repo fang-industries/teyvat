@@ -21,6 +21,7 @@ export default {
   css: [
     '@/assets/styles/tailwind.css',
     '@/assets/styles/tailwind-fix.css',
+    '@/assets/styles/navbar-fix.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
