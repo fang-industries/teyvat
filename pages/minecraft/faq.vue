@@ -188,10 +188,10 @@
             </p>
             <p>
               you might also want to check this page out ->
-              <nuxt-link
-                to="/minecraft/optifine-alternatives"
+              <a
+                href="https://lambdaurora.dev/optifine_alternatives/"
                 class="font-medium text-blue-300 underline transition duration-150 hover:text-blue-200"
-                >~/minecraft/optifine-alternatives</nuxt-link
+                >../optifine-alternatives</a
               >
             </p>
           </div>
