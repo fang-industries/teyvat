@@ -70,21 +70,25 @@
           an extra note about the discussion of sex
         </p>
         <p class="mb-4 text-sm font-light text-gray-600">
-          updated 05/12/2021 by
+          updated 30/06/2022 by
           <a
             href="https://discord.com/users/775550130115444776"
             class="my-auto font-medium text-gray-500 underline transition duration-150 hover:text-gray-400"
           >
             magnificentash#4760</a
           >
+          and
+          <a
+            href="https://discord.com/users/728180364962562108"
+            class="my-auto font-medium text-gray-500 underline transition duration-150 hover:text-gray-400"
+          >
+            cha <span class="font-sans">☆</span>#6171</a
+          >
         </p>
         <div class="mb-16">
-          in case you want to talk about it, you may talk in DMs or somewhere
-          else because we don&apos;t know who is lurking in the chat and reading
-          the messages you are sending. a few members might be weirded out or be
-          uncomfortable with this kind if topic so please don&apos;t discuss
-          about it here. we&apos;re not trying to ruin the fun or anything but
-          please respect this rule.
+          topics about the human reproductive system should just be taken to
+          DMs, some of us might be uncomfortable with those conversations -
+          please respect all of the members' boundaries and decisions.
         </div>
       </div>
     </section>
